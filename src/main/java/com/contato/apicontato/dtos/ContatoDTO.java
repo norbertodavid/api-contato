@@ -1,10 +1,18 @@
 package com.contato.apicontato.dtos;
 
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotBlank;
+
 public class ContatoDTO {
 
     private Long id;
+    @NotBlank(message = "O campo Nome é obrigatório")
+    @Length(min = 3, max = 30, message = "Deve conter entre 3 até 30 caracteres")
     private String nome;
+
     private String email;
+
     private String telefone;
 
     public ContatoDTO() {
