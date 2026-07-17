@@ -161,7 +161,7 @@ POST
 Clone o projeto
 
 ```bash
-git clone https://github.com/SEU-USUARIO/api-contato.git
+git clone https://github.com/norbertodavid/api-contato.git
 ```
 
 Entre na pasta
@@ -222,14 +222,14 @@ Perfis disponíveis:
 
 ## Norberto David
 
-🎓 Estudante de Análise e Desenvolvimento de Sistemas
+🎓 Atualmente, estudante de Análise e Desenvolvimento de Sistemas na Faculdade UniFatecie 
 
-💻 Desenvolvedor Back-end em formação
+💻 Desenvolvedor Back-end e Front-end 
 
 ### Tecnologias
 
-- Java
-- Spring Boot
+- Java, PHP
+- Spring Boot, Laravel
 - SQL
 - APIs REST
 - Git
